@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | QR code component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <style type="text/css">
+
+  .attribution {
+
+    display: none;
+
+  }
+
+  body {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    font-family: Outfit, sans-serif;
+
+  }
+
+  * {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+  }
+
+  #QRcomponent {
+
+    padding: 17px;
+    display: flex;
+    flex-direction: column;
+    width: 322px;
+    background-color: #ffffff;
+    border-radius: 15px;
+
+  }
+
+  #img-container {
+
+    border-radius: 15px;
+    overflow: hidden;
+
+  }
+
+  #img-container img {
+
+    width: 100%;
+    display: block;
+
+  }
+
+  #content-container {
+
+    text-align: center;
+    padding: 31px 22px;
+
+  }
+
+  #content-container h3 {
+
+    color:  hsl(218, 44%, 22%);
+    margin-bottom: 17px;
+    font-size: 20px;
+
+  }
+
+  #content-container p {
+
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+
+  }
+
+  </style>
+</head>
+<body>
+
+  <div id="QRcomponent">
+
+    <div id="img-container">
+      <img src="images/image-qr-code.png" draggable="false" alt="QR code">
+    </div>
+    <div id="content-container">
+      <h3>Improve your front-end skills by building projects</h3>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Aleksandar Stankovic</a>.
+  </div>
+</body>
+</html>
